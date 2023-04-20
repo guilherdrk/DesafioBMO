@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Swiper CSS -->
+    
+
+    <title>Snack BurgeeK</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <nav class="navigation">
+                <a href="#" class="logo">S<span>nac</span>K B<span>urge</span>e</span>K</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="home">Home</a></li>
+                    <li class="nav-item"><a href="ourteam">Our team</a></li>
+                    <li class="nav-item"><a href="contact">Contact</a></li>
+                    <button id="show-login">Login</button>
+                </ul>
+                <div class="menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+             <section class="home">
+                <div class="home-text">
+                    <h4 class="text-h4">Welcome SnacK BurgeeK</h4>
+                    <h1 class="text-h1">Different spice for different tastes</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam minima repellat cumque quis ex.</p>
+
+                    <a href="#" class="btn" >Order Yours</a>
+                </div>
+                <div class="home-image">
+                    <img src="assets/img/imagem.png" alt="hamburger image">
+                </div>
+            </section>
+            
+            <section class="ourteam">
+                <h2>Our team</h2>
+                
+                <div class="cards">
+                    <div class="card">
+                    <img src="assets/img/leon.jpg" alt=""> 
+                    <h4>Leon S Kennedy</h4>
+                </div>
+                <div class="card">
+                    <img src="assets/img/krauser.jpg" alt=""> 
+                    <h4>Albert Wesker</h4>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/ada.jpg" alt=""> 
+                        <h4>Ada Wong</h4>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section class="contact">
+                <form action="" id="formulario">
+                    <div class="form-elements">
+                        <h2>Contact Us</h2>
+                        <div class="element">
+                            <label for="nome">Digite seu nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Nome..." >
+                        </div>
+                        <div class="element">
+                            <label for="Email">Digite o seu E-mail</label>
+                            <input type="email" name="Email" id="Email" placeholder="E-mail..." >
+                        </div>
+                        <div class="element">
+                            <label for="telefone">Digite seu telefone</label>
+                            <input type="tel" name="telefone" id="telefone" placeholder="Telefone..." >
+                        </div>
+                      
+                        <div class="element">
+                           <button>Enviar</button>
+                        </div>
+
+                    </div>
+                    
+                </form>
+                <div class="form-title">
+                    <h1>S<span>nac</span>K B<span>urge</span>e</span>K</h1>
+                        
+                </div>
+
+               <div class="popup-erro">
+                    <div class="close-erro">&times</div>
+                    <div class="content">
+                        <p class="content-text">[ERRO!!!] Por favor, preencha todos os campo(s) corretamente</p>
+                        
+                    </div>
+               </div>    
+    
+   
+            </section>
+
+            <footer class="footer">
+                <div class="content"> 
+                    <a href="#" class="logo">S<span>nac</span>K B<span>urge</span>e</span>K</a>
+
+                    <ul class="links">
+                        <li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i> <a  href="#">Instagram</a></li>
+                        <li><i class="fa-brands fa-github" style="color: #ffffff;"></i> <a  href="#">GitHub</a></li>
+                        <li><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i> <a  href="#">Linkedin</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>Feito por Guilherme Messias Silva</p>
+                </div>
+            </footer>
+        </main>
+        
+        <div class="popup">
+            <div class="close-btn">&times</div>
+            <div class="form">
+                <h2>Log in</h2>
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="E-mail..." required>
+                </div>
+                <div class="form-element">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password..." required>
+                </div>
+                <div class="form-element">
+                    <input type="checkbox"  id="remember-me" required>
+                    <label for="remember-me">Remember-me</label>
+                </div>
+                <div class="form-element sign">
+                    <button>Sign in</button>
+                </div>
+                <div class="form-element">
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="popup-enviado">
+        <div class="close">&times</div>
+        <div class="content">
+            <p class="content-text">[OKAY!!!] Entraremos em contato em breve!!!</p>
+            
+        </div>
+   </div>    
+<script src="assets/js/index.js"></script>
+</body>
+</html>
